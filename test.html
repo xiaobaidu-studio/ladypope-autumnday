@@ -1,1 +1,30 @@
-test
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>tooltip demo</title>
+  <link rel="stylesheet" href="assets/js/jquery-ui.css">
+  <script src="assets/js/jquery-2.1.1.js"></script>
+ <script src="assets/js/jquery-ui.js"></script>
+ <script type="text/javascript">
+ $(function(){
+ 	$( 'input' ).click(function(){
+
+  		$(this).dialog({'content':'hello kuga'});
+  	});
+});
+
+
+
+ </script>
+</head>
+<body>
+ 
+<p>
+  
+  <input title="Input help" type="button" value="click me">
+</p>
+
+</body>
+</html>
